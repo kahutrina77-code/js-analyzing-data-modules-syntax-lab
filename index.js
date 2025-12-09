@@ -17,11 +17,7 @@ combinedObject.merge_date = new Date().toString("M/d/yyyy");
 //return the object
 return combinedObject;
 }
-//usage example
-const a = ["trina", "mary"]
-const b = ["john","Foell"]
-const c = ["kahush"]
-console.log(combineUsers(a, b, c));
+
 
 module.exports = {
   ...(typeof combineUsers !== 'undefined' && { combineUsers })
